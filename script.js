@@ -7,7 +7,7 @@ document.body.addEventListener('click', (e) => {
 	// selector output
 	let output = generateSelector(e.target)
 
-	selector.innerHTML = `<strong>Selector:</strong> ${output}`
+	selector.innerHTML = `${output}`
 
 	// element that you select
 	let element = document.querySelector(output)
